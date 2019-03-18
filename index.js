@@ -43,6 +43,6 @@ function prependDriver(name) {
   
   let driverscopy = drivers.slice()
   
-  driverscopy.unshift()
+  driverscopy.unshift(name)
   
 }
