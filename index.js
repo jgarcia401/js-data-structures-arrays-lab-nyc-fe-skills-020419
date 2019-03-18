@@ -39,4 +39,10 @@ function appendDriver(name) {
   
 }
 
-function 
+function prependDriver(name) {
+  
+  let driverscopy = drivers.slice()
+  
+  driverscopy.
+  
+}
