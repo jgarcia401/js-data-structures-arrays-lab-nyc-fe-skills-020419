@@ -35,5 +35,7 @@ function appendDriver(name) {
   
   driverscopy.push(name)
   
+  return driverscopy
+  
 }
 
