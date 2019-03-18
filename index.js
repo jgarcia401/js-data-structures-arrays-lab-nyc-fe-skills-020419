@@ -33,6 +33,7 @@ function appendDriver(name) {
   
   drivers.slice()
   
+  driverscopy.push(name)
   
 }
 
