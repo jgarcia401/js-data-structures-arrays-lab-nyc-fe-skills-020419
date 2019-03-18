@@ -41,7 +41,7 @@ function appendDriver(name) {
 
 function prependDriver(name) {
   
-  let driverscopy = drivers.unshift()
+  let driverscopy = drivers.slice()
   
   driverscopy.unshift()
   
