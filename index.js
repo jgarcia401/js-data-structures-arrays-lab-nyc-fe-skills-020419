@@ -45,4 +45,6 @@ function prependDriver(name) {
   
   driverscopy.unshift(name)
   
+  return driverscopy
+  
 }
