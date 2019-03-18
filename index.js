@@ -52,7 +52,7 @@ function prependDriver(name) {
 
 function removeLastDriver(name) {
   
-  let driverscopy = driver.slice()
+  let driverscopy = driver.splice()
   
   driverscopy.pop(name)
   
