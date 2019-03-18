@@ -59,3 +59,14 @@ function removeLastDriver(name) {
   return driverscopy
   
 }
+
+function removeFirstDriver(name) {
+  
+  let driverscopy = drivers.slice()
+    
+    driverscopy.shift(name)
+    
+    return driverscopy
+  
+  
+}
