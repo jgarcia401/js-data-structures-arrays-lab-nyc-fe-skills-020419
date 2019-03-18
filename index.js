@@ -2,5 +2,5 @@
 
 const drivers = ["Milo", "Otis", "Garfield"]
 
-drivers.push = [0]
+destructivelyAppendDriver(name)
 
